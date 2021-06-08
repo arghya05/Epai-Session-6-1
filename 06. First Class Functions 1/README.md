@@ -15,15 +15,15 @@ suits = ['spades', 'clubs', 'hearts', 'diamonds']
 
 1. Write a single expression that includes lambda, zip and map functions to select create 52 cards in a deck - 50 pts
 2. Write a normal function without using lambda, zip, and map function to create 52 cards in a deck - 50 pts
-3. Write a function that, when given 2 sets of 3 or 4 or 5 cards (1 game can only have 3 cards with each player or 4 cards or 5 cards per player) (1 deck of cards only), (2 players only), can identify who won the game of poker (Links to an external site.)! - 150 pts
+3. Write a function that, when given 2 sets of 3 or 4 or 5 cards (1 game can only have 3 cards with each player or 4 cards or 5 cards per player) (1 deck of cards only), (2 players only), can identify who won the game of poker (Links to an external site.)! - 100 pts
 
 ###  Basics (applicable to 2/3 above):
 
-1. Proper readme file - 50 (if not there then 0)
-2. Docstrings must, and it must mention what the function is doing (2, 3) - 50
-3. Write annotations for 3 - 50 pts
-4. Basics tests to ensure your code if correct (20+ combination tests (counted as 1 test) in 3, check 1/2 with a manual list of 52 cards. Overall 20 tests at minimum) - 200 pts
-5. Submit Github link with all test files and github actions in place. 
+1. The proper readme file that explains all the tests that you are writing - 50 (if not there then 0)
+2.Docstrings are a must, and it must mention what the function is doing (2, 3) - 25pts
+3. Write annotations for 3 - 25 pts
+4. BBasics tests to ensure your code is correct (20+ combination tests (counted as 1 test) in 3, check 1/2 with a manual list of 52 cards. Overall 20 tests at minimum) - 200 pts
+5. import your python file/functions to a notebook, and then SHOW all the functions working as intended. This notebook file is the first file that we'll check to see your results. So if this file is missing, or a particular function/feature is not mentioned here, you'll lose marks. 
    
 <h2 align="center">Assignment Solution </h2>
 
@@ -92,10 +92,9 @@ Based on the Rules I have deviced a very simple algorithm:
 |7|check_for_color | This function takes in list as input i.e. the suits of the hand and checks whether they are same or not|
 | 8 |check_for_number_sequence | This function takes in list an input (the hand of the player), then it checks whether it is in sequence or not | 
 
-### TestCases
+### TestCases(optional)
 
 Here we have written a lot of testcases to check each functionality thoroughtly as out code shouldnt be breaking. 
 To test each combination for each type of hand I have written a test for each, so the test cases in format ```test_show_for_3_for_6_v_10``` represents for hand length of 3 for combination of player 1 having a hand of straight and player 2 having a hand of high card and we check the result. Rest of the test cases are self explanatory.
 
 ---
-<h3 align = "center"> Made with ❤ & 🍻 by KillerStrike</h3>
